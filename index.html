@@ -10,6 +10,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Banquito</title>
   </head>
@@ -19,19 +22,18 @@
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./assets/images/logo.png"
-              alt="logo banquito"
-              width="150"
-              height="120"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-        </div>
-        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="./assets/images/logo.png" alt="Banquito logo" width="25%">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Buscar miembros</a>
               </li>
@@ -45,8 +47,33 @@
           </div>
         </div>
       </nav>
-
       <!-- FIN NAVBAR -->
     </header>
+    <main>
+      <div id="hero">
+        <div class="hero-image">
+          <div class="hero-text">
+            <p class="fs-2 text">Tus cuentas y tarjetas en un solo lugar.</p>
+            <p class="fs-5 text">Conecta tu dinero con todo lo que queres.</p>
+                  <a "
+                    href="http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                    ><img class="hero-button
+                      alt="Disponible en Google Play"
+                      src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png"
+                  /></a>
+                  <a "
+                    href="http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                    ><img class="hero-button
+                      alt="Disponible en Google Play"
+                      src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png"
+                  /></a>
+          </div>
+        </div>
+    </main>
+    <section>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
