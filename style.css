@@ -379,4 +379,92 @@ header {
 .hero-button {
   width: 25vh;
   align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+  padding: 1 rem;
+  text-align: center;
+}
+.card-container__card {
+  margin: 3rem;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 10rem;
+  min-width: 20rem;
+  min-height: 3rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  background: rgba(176, 176, 255, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.card-container__card:hover {
+  background: white;
+}
+
+.container__text {
+  margin: 3rem;
+}
+.container__btn {
+  align-content: center;
+  text-align: center;
+  margin: 3rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 10rem;
+  min-width: 20rem;
+  min-height: 3rem;
+  padding: rem;
+  transition: 0.3s;
+  background: white;
+  border-radius: 10px;
+  border: 3px solid #b0b0ff;
+}
+.container__btn:hover {
+  background: rgba(176, 176, 255, 0.75);
+}
+
+.w {
+  padding: 3rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 25rem);
+  grid-template-rows: 30rem;
+  grid-gap: 1rem;
+}
+
+.one {
+  border-radius: 10px;
+  padding: 5rem;
+  background-color: #3f3fb8;
+  color: white;
+  grid-column: 1;
+  grid-row: 1/1;
+}
+
+.two {
+  border-radius: 10px;
+  background-color: black;
+  grid-column: 2;
+  grid-row: 1/1;
+}
+
+.three {
+  border-radius: 10px;
+  background-color: black;
+  grid-column: 3;
+  grid-row: 1/1;
+}
+
+.grid-pic {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
